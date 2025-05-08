@@ -1,0 +1,17 @@
+.container{
+    padding: 3rem 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.experienceBox{
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 1.5rem;
+}
+
+.sectionHeader{
+    font-size: 2.5rem;
+    color: black;
+}

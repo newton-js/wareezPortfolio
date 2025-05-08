@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    width: 100vw;
+    /* margin: 0 auto; */
+    position: relative;
+}
+
+.main{
+    height: 100dvh;
+    padding: 0 1rem;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.menu{
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    font-size: 3rem;
+    background-color: lightslategray;
+    color: white;
+}
+
+
+@media (max-width:63em){
+    .menu{
+        display: initial;
+    }
+}
+
+
+
+
+

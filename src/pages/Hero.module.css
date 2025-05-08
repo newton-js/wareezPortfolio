@@ -1,0 +1,59 @@
+.hero{
+    padding: 5rem 0;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+.hero p{
+    font-size: 1.5rem;
+}
+
+.heroName {
+    font-size: 4rem;
+    color: black;
+}
+
+.heroName span{
+    color: brown;
+}
+
+.email{
+    color: brown;
+}
+
+.heroText{
+    padding: 3rem 0;
+}
+
+.logoList{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-bottom: 7rem;
+}
+
+.logoList li{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+}
+
+.icon{
+    color: white;
+    font-size: 2rem;
+}
+
+.resume{
+    background-color: brown;
+    color: white;
+    border-radius: 5rem;
+    padding: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+

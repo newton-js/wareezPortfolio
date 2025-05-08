@@ -1,0 +1,35 @@
+.container{
+    padding: 3rem 0;
+    border-bottom: 1px solid lightgrey;
+    font-size: 1.5rem;
+}
+
+.container h1{
+    font-size: 2.5rem;
+    color: black;
+}
+
+.container p{
+    margin-bottom: 4rem;
+}
+
+.logoList{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-bottom: 7rem;
+}
+
+.logoList li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.icons{
+    font-size: 3rem;
+    color: lightslategray;
+}

@@ -1,0 +1,15 @@
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.flex p {
+  color: brown;
+}
+
+.text{
+  padding: 1rem 0;
+}
