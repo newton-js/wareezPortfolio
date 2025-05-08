@@ -8,8 +8,8 @@ function Hero() {
         WAREEZ <span>YUSUF</span>
       </h1>
       <p>
-        3542 Berry Street · Cheyenne Ontario, CO 80810 · (647) 467-8022 ·{" "}
-        <span className={styles.email}>lohleez@gmail.com</span>{" "}
+        2492 Bromus path· Oshawa Ontario, CO L1J0k7 · (647) 467-8022 ·
+        <span className={styles.email}>lohleez@gmail.com</span>
       </p>
       <p className={styles.heroText}>
         I am experienced in leveraging agile frameworks to provide a AI synopsis

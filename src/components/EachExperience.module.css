@@ -13,3 +13,9 @@
 .text{
   padding: 1rem 0;
 }
+
+@media(max-width: 800px){
+  .flex p{
+    font-size: 1rem;
+  }
+}
