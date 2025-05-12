@@ -18,7 +18,7 @@ function App() {
   }
   return (
     <div className={styles.container}>
-      <Aside toggle={sidebar}/>
+      <Aside toggle={sidebar} setToggle={setSidebar}/>
       {sidebar ? 
       <IoMdClose onClick={handleSidebar} className={styles.menu} /> :
       <IoMdMenu onClick={handleSidebar} className={styles.menu}/> }

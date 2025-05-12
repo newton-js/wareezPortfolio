@@ -3,7 +3,7 @@ import styles from './Skills.module.css';
 import { FaC } from 'react-icons/fa6';
 function Skills() {
     return (
-        <div className={styles.container}>
+        <div id='skills' className={styles.container}>
             <h1>SKILLS</h1>
             <p>PROGRAMMING LANGUAGES & TOOLS</p>
             <ul className={styles.logoList}>

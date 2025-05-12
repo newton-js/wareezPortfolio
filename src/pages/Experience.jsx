@@ -3,7 +3,7 @@ import EachExperience from "../components/EachExperience";
 
 function Experience() {
   return (
-    <div className={styles.container}>
+    <div id="experience" className={styles.container}>
       <h1 className={styles.sectionHeader}>EXPERIENCE</h1>
       <div className={styles.experienceBox}>
         <EachExperience

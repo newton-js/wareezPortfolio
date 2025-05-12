@@ -3,7 +3,7 @@ import lolly from "../assets/lollysResume.pdf";
 import styles from "./Hero.module.css";
 function Hero() {
   return (
-    <div className={styles.hero}>
+    <div id="hero" className={styles.hero}>
       <h1 className={styles.heroName}>
         WAREEZ <span>YUSUF</span>
       </h1>

@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -43,14 +44,15 @@ html {
   cursor: pointer;
 }
 
-.mainList li {
+.mainList li a {
   color: white;
   font-weight: 550;
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
+  text-decoration: none;
 }
 
-.resume{
+.resume {
   color: white;
 }
 
@@ -96,6 +98,7 @@ html {
     left: 0;
     width: 100vw;
     height: 100dvh;
+    transition: all 0.5s ease-in;
   }
 
   .imgBox {
@@ -119,6 +122,9 @@ html {
   }
 
   .hidden {
-    display: none;
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
   }
 }
