@@ -11,9 +11,7 @@ function Aside({toggle, setToggle}) {
       </div>
       <ul  className={styles.mainList} onClick={(e) => {
         e.preventDefault();
-        console.log(e.target);
         const id = e.target.getAttribute("href");
-        console.log(id);
         document.querySelector(id).scrollIntoView()
         setToggle(false)
       }}>

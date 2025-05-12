@@ -3,7 +3,7 @@ import document from "../assets/wareezProject.pdf"
 import styles from "./Project.module.css";
 function Project() {
   return (
-    <div id="project" className={styles.container}>
+    <div id="projects" className={styles.container}>
       <h1 className={styles.sectionHeader}>PROJECTS</h1>
       <div className={styles.experienceBox}>
         <EachExperience
